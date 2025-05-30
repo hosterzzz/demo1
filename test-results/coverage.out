@@ -1,0 +1,5 @@
+mode: set
+hello/v2/main.go:8.13,10.2 1 0
+hello/v2/cmd/root.go:29.16,31.16 2 0
+hello/v2/cmd/root.go:31.16,33.3 1 0
+hello/v2/cmd/root.go:36.13,46.2 1 0

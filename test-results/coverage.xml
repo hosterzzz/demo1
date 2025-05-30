@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+<coverage line-rate="0" branch-rate="0" lines-covered="0" lines-valid="5" branches-covered="0" branches-valid="0" complexity="0" version="" timestamp="1748646534113">
+	<packages>
+		<package name="hello/v2" line-rate="0" branch-rate="0" complexity="0" line-count="1" line-hits="0">
+			<classes>
+				<class name="-" filename="main.go" line-rate="0" branch-rate="0" complexity="0" line-count="1" line-hits="0">
+					<methods>
+						<method name="main" signature="" line-rate="0" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="9" hits="0"></line>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="9" hits="0"></line>
+					</lines>
+				</class>
+			</classes>
+		</package>
+		<package name="hello/v2/cmd" line-rate="0" branch-rate="0" complexity="0" line-count="4" line-hits="0">
+			<classes>
+				<class name="-" filename="cmd/root.go" line-rate="0" branch-rate="0" complexity="0" line-count="4" line-hits="0">
+					<methods>
+						<method name="Execute" signature="" line-rate="0" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="30" hits="0"></line>
+								<line number="31" hits="0"></line>
+								<line number="32" hits="0"></line>
+							</lines>
+						</method>
+						<method name="init" signature="" line-rate="0" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="45" hits="0"></line>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="30" hits="0"></line>
+						<line number="31" hits="0"></line>
+						<line number="32" hits="0"></line>
+						<line number="45" hits="0"></line>
+					</lines>
+				</class>
+			</classes>
+		</package>
+	</packages>
+	<sources>
+		<source>/app</source>
+	</sources>
+</coverage>

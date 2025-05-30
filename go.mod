@@ -1,11 +1,8 @@
-module github.com/dev/vasyliev/kbot
+module hello/v2
 
-go 1.24.1
+go 1.21.6
 
-require (
-	github.com/spf13/cobra v1.9.1
-	gopkg.in/telebot.v3 v3.3.8
-)
+require github.com/spf13/cobra v1.9.1
 
 require (
 	github.com/inconshreveable/mousetrap v1.1.0 // indirect

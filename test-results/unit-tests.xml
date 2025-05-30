@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="0" failures="0" errors="0" time="0.023235">
+	<testsuite tests="0" failures="0" time="0.023000" name="hello/v2" timestamp="2025-05-30T23:08:53Z">
+		<properties>
+			<property name="go.version" value="go1.23.9 linux/amd64"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="0" failures="0" time="0.023000" name="hello/v2/cmd" timestamp="2025-05-30T23:08:53Z">
+		<properties>
+			<property name="go.version" value="go1.23.9 linux/amd64"></property>
+		</properties>
+	</testsuite>
+</testsuites>

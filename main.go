@@ -3,7 +3,7 @@ Copyright © 2025 NAME HERE <EMAIL ADDRESS>
 */
 package main
 
-import "github.com/dev/vasyliev/kbot/cmd"
+import "hello/v2/cmd"
 
 func main() {
 	cmd.Execute()
