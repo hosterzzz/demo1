@@ -31,9 +31,9 @@ linux: TARGETOS=linux
 linux: TARGETARCH=amd64
 linux: $(LINUX)
 
-macos: TARGETOS=darwin
-macos: TARGETARCH=arm64
-macos: $(DARWIN)
+darwin: TARGETOS=darwin
+darwin: TARGETARCH=arm64
+darwin: $(DARWIN)
 
 arm: TARGETOS=linux
 arm: TARGETARCH=arm64
