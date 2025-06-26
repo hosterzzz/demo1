@@ -66,5 +66,5 @@ push:
 
 clean:
 	rm -f kbot $(WINDOWS) $(LINUX) $(DARWIN) $(ARM);
-	docker images | grep ${REGESTRY}/${APP} | awk '{print $3}' | xargs docker rmi
+	docker images -q | head -n 1 | xargs docker rmi
 
