@@ -65,6 +65,5 @@ push:
 	docker push  ${REGISTRY}/${APP}:${VERSION}-${TARGETOS}-${TARGETARCH}
 
 clean:
-	rm -f kbot $(WINDOWS) $(LINUX) $(DARWIN) $(ARM);
-	docker images -q | head -n 1 | xargs docker rmi -f
-
+	rm -f kbot_*;
+	docker images | grep ${VERSION} | awk '{print $3}' | xargs docker rmi -f
