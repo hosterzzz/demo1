@@ -59,11 +59,11 @@ $(ARM): format get
 	docker build --build-arg name=${TARGETOS} -t ${REGESTRY}/${APP}:${VERSION}-${TARGETOS}-${TARGETARCH} .
 
 image:
-	docker build . -t ${REGISTRY}/${APP}:${VERSION}-${TARGETOS}-${TARGETARCH} --build-arg TARGETOS=${TARGETOS} --build-arg TARGETARCH=${TARGETARCH}
+	docker build . -t ${REGESTRY}/${APP}:${VERSION}-${TARGETOS}-${TARGETARCH} --build-arg TARGETOS=${TARGETOS} --build-arg TARGETARCH=${TARGETARCH}
 
 push:
-	docker push  ${REGISTRY}/${APP}:${VERSION}-${TARGETOS}-${TARGETARCH}
+	docker push ${REGESTRY}/${APP}:${VERSION}-${TARGETOS}-${TARGETARCH}
 
 clean:
 	rm -f kbot_*;
-	docker images | grep ${VERSION} | awk '{print $3}' | xargs docker rmi -f
+	docker rmi ${REGESTRY}/${APP}:${VERSION}-${TARGETOS}-${TARGETARCH}
